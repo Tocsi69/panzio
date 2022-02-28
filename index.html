@@ -14,8 +14,9 @@
             Balaton Panzió- Szobafoglalás
         </div>
         <div class="row text-center">
-            <div class="col-3"></div>
-            <div class="col-6">
+            <div class="col-2 bg"></div>
+            <div class="col-8">
+                <hr>
                 <div class="row">
                     <div class="col-4">
                         <label for="erkezes">Érkezés dátuma: </label>
@@ -56,8 +57,33 @@
                         </p>
                     </div>
                 </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <p>
+                            <label for="vszama">Vendégek száma:</label>
+                        </p>
+                        <p>
+                            <label for="veletkora">Vendégek életkora:</label>
+                        </p>
+                    </div>
+                    <div class="col-8">
+                        <p>
+                            <select name="vszamok" id="vszama">
+                                <option value="v1">1</option>
+                                <option value="v2">2</option>
+                                <option value="v3">3</option>
+                                <option value="v4">4</option>
+                            </select>
+                        </p>
+                        <p>
+                            <input type="number" maxlength="3" name="veletkorok" id="veletkora" style="width: 6ch;">
+                        </p>
+                    </div>
+                </div>
+                <hr>
             </div>
-            <div class="col-3"></div>
+            <div class="col-2 bg"></div>
         </div>
     </div>
 </body>
